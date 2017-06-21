@@ -20,7 +20,7 @@ pick_a_national_GDP_4web
 * [csv]
 
 ### 数据
-* 数据来源为数据库[data/National_GDP.tsv](data/National_GDP.tsv)，本组并未使用API。
+* 数据来源为老师的数据库[data/National_GDP.tsv](data/National_GDP.tsv)，本组并未使用API。
 
 ### API
 * 本组并未执行其他数据清理工作。
