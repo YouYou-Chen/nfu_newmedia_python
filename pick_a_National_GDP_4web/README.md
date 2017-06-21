@@ -3,24 +3,24 @@ pick_a_national_GDP_4web
 英文项目名称pick_a_national_GDP_4web
 		
 # 简介 
-选取的国家GDP，输入方面用户可用国家名称进行选择，方便挑取，输入出方面则是输出该国家2016年的GDP值，数据来源为教师从国家数据网取得的tsv档。
+选取的国家GDP，输入方面用户可用国家名称进行选择也可以使用下拉列表，输入出方面则是输出该国家2016年的GDP值。
 
 
 		
 ## 输入：
 
-用户输入国家名称，交互界面使用到[HTML5之datalist标签]，显示的是国家GDP值，其对映值为国家名称，所以用户可以用国家名称的片段找所需要的GDP值。
+用户输入国家名称，显示的是国家GDP值，所以用户可以用国家名称的片段找所需要的GDP值。
 
 ## 输出：
 
-用户得到输出结果为：国家2016年的GDP值得元数据，见[tempaltes/results.html](tempaltes/results.html)模版中table标签所包的数据。
+用户得到输出结果为：国家2016年的GDP值，见[tempaltes/results.html](tempaltes/results.html)模版中table标签所包的数据。
 
 ## 从输入到输出，除了flask模块，本组作品还使用了：
 ### 模块
-* [csv]
+* [csv]模块和自己导入的[module National_GDP]模块
 
 ### 数据
-* 数据来源为老师的数据库[data/National_GDP.tsv](data/National_GDP.tsv)，本组并未使用API。
+* 数据来源为老师的数据库中的tsv档和在网上下载的txt档[data/National_GDP.tsv](data/National_GDP.tsv)，本组并未使用API。
 
 ### API
 * 本组并未执行其他数据清理工作。
