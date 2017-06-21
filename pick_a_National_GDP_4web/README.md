@@ -17,7 +17,7 @@ pick_a_national_GDP_4web
 
 ## 从输入到输出，除了flask模块，本组作品还使用了：
 ### 模块
-* [csv]模块和自己导入的[module National_GDP]模块
+* [csv]模块和自己导入的[module National_GDP]模块，没有使用API
 
 ### 数据
 * 数据来源为老师的数据库中的tsv档和在网上下载的txt档[data/National_GDP.tsv](data/National_GDP.tsv)
