@@ -20,7 +20,7 @@ pick_a_national_GDP_4web
 * [csv]模块和自己导入的[module National_GDP]模块
 
 ### 数据
-* 数据来源为老师的数据库中的tsv档和在网上下载的txt档[data/National_GDP.tsv](data/National_GDP.tsv)，本组并未使用API。
+* 数据来源为老师的数据库中的tsv档和在网上下载的txt档[data/National_GDP.tsv](data/National_GDP.tsv)
 
 ### API
 * 本组并未执行其他数据清理工作。
