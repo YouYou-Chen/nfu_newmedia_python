@@ -25,7 +25,7 @@ def pick_a_color() -> 'html':
     user_country_name = request.form['user_country']	
     user_country_code = c_dict_reverse[user_country_name]	
     return render_template('results.html',
-                           the_title = '以下是您选取的国：',
+                           the_title = '以下是您选取的国家的GDP：',
                            the_country_code = user_country_code,
                            the_country_name = user_country_name,
                            )
