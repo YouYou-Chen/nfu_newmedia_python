@@ -8,11 +8,15 @@
 <table>
 <tr><td>请选取ISO: </td><td>
   <select name='user_national_ISO'>           
-   
+  {% for item in the_list_items %}
+    <option value="{{item}}">{{item}}</option>
+  {% endfor %}
   </select>
   <tr><td>请选取指标: </td><td>
   <select name='user_national_WEO_Subject_Code'>           
-	
+   {% for item in the_list_items %}
+    <option value="{{item}}">{{item}}</option>
+  {% endfor %}
   </select>
 </table>
 <p>准备就绪后, 单击此按钮：</p>
