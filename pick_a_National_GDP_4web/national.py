@@ -4,7 +4,7 @@
 """创建一个类"""
 class national_list_name (object):
 
-    def __init__(self, fn='data/WEOApr2017all.tsv'):
+    def __init__(self, fn='data/national.tsv'):
        import csv
        with open(fn, 'r', encoding='utf8') as csvfile:
            reader = csv.DictReader(csvfile, fieldnames=['c_code', 'c_name'], delimiter='\t')
