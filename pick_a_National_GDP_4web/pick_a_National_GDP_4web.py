@@ -68,8 +68,7 @@ def pick_a_color() -> 'html':
 		N=want_nation[i].split('\t')[48]
 		O=want_nation[i].split('\t')[49]
 		P=want_nation[i].split('\t')[50]
-		
-		
+				
 		
 		
 		result_nation=sorted(result_nation)
@@ -77,7 +76,7 @@ def pick_a_color() -> 'html':
 		
 	return render_template('results.html',
 							the_title = '以下是您筛选后的结果：',
-							the_national= result_nation,
+							the_national_code= result_nation,
 							the_national_ISO_code =user_national_ISO,
 							the_national_WEO_Subject_Code_code =user_national_WEO_Subject_Code,
 					
