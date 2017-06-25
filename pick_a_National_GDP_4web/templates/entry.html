@@ -4,8 +4,9 @@
 
 <h2>{{ the_title }}</h2>
 
-<form method='POST' action='/pick_a_country'>
+<form method='POST' action='/pick_a_national'>
 <table>
+<th colspan="2">请选取国家：</th>
 <tr><td>请选取ISO: </td><td>
   <select name='user_national_ISO'>           
   {% for item in the_list_items %}
