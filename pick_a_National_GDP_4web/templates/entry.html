@@ -6,10 +6,9 @@
 
 <form method='POST' action='/pick_a_national'>
 <table>
-<th colspan="2">请选取国家：</th>
 <tr><td>请选取ISO: </td><td>
- <option value="AFG">AFG</option>
-  <select name='user_national_ISO'>           
+  <select name='user_national_ISO'> 
+   <option value="AFG">AFG</option>        
   {% for item in the_list_items %}
     <option value="{{item}}">{{item}}</option>
   {% endfor %}
