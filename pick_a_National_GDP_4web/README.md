@@ -17,7 +17,7 @@ pick_a_zb_national
 
 ## 从输入到输出，除了flask模块，本组作品还使用了：
 ### 模块
-* [csv]、[tsv]、[pandas]，没有使用API
+* 使用了[csv]、[tsv]、[pandas]，没有使用API
 
 ### 数据
 * 数据来源为IMF数据库中的取得的xls档，用pandas将他转为tsv档[data/fsnd_national.tsv](data/fsnd_national.tsv)
