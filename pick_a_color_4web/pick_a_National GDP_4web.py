@@ -15,7 +15,7 @@ def pick_a_capital() -> 'html':
     """提取用户web 请求POST方法提交的数据（输入），不执行任何动作（处理），直接返回（输出）。"""
     user_capital = request.form['user_capital']	
     return render_template('results.html',
-                           the_title = '以下是您选取的手都：',
+                           the_title = '以下是您选取的都：',
                            the_National GDP = user_National GDP,
                            )
 
