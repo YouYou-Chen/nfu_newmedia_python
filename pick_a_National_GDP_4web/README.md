@@ -5,7 +5,7 @@ pick_a_zb_national
 # 简介
  
 项目所做的是通过国家的ISO寻找到这个国家1980年到2022年的PPPGDP，其中PPPGDP的货币单位为Billions。
-首先内容中所说的指标为PPPGDP，在输入方面用户可自己输入国家的ISO或直接在下拉列表中挑选 ，输出方面则是输出国家的ISO、指标PPPGDP、货币单位、指标所对应的1980年到2022年的GDP数据单位共44项元数据，可查国家共192个，数据来源为IMF数据库中取得[xls]档(http://www.imf.org/external/pubs/ft/weo/2017/01/weodata/download.aspx)
+首先内容中所说的指标为PPPGDP，在输入方面用户可自己输入国家的ISO或直接在下拉列表中挑选 ，输出方面则是输出国家的ISO、指标PPPGDP、货币单位、指标所对应的1980年到2022年的GDP数据单位共44项元数据，可查国家共192个，数据来源为IMF数据库中取得[xls](http://www.imf.org/external/pubs/ft/weo/2017/01/weodata/download.aspx)档
 
 ## 输入：
 
