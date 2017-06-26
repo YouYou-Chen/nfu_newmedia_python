@@ -13,7 +13,7 @@ pick_a_zb_national
 
 ## 输出：
 
-用户得到输出结果为：国家1980年到2022年的PPPGDP值，见[tempaltes/results.html](tempaltes/results.html)模版中table标签所包的数据。
+用户得到输出结果为：国家1980年到2022年的PPPGDP值，共42项数据输出，见[tempaltes/results.html](tempaltes/results.html)模版中table标签所包的数据。
 
 ## 从输入到输出，除了flask模块，本组作品还使用了：
 ### 模块
