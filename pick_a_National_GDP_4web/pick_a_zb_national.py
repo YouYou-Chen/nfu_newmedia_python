@@ -33,7 +33,7 @@ def pick_a_zb() -> 'html':
                            the_title = '以下是您选取的结果：',
                            the_zb = user_zb,
                            the_zb_WEO_Subject_Code = national['WEO_Subject_Code'][user_zb],
-                           the_zd_Scale  = national['Scale'][user_zb],
+                           the_zb_Scalee = national['Scale'][user_zb],
 						   the_zb_1980   = national['1980'][user_zb],
                            the_zb_1981   = national['1981'][user_zb],
                            the_zb_1982   = national['1982'][user_zb],
