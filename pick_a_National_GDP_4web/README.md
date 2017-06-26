@@ -4,22 +4,23 @@ pick_a_zb_national
 
 # 简介
  
-指标为PPPGDP，输入方面用户可 自己输入国家的ISO 或 直接在下拉列表中挑选 ，输出方面则是输出国家的ISO、指标的名称、指标所对应的1980年到2022年的GDP数据单位共44项元数据，可查国家共192个，数据来源为IMF数据库中取得xls档。
+项目所做的是通过国家的ISO寻找到这个国家1980年到2022年的PPPGDP，其中PPPGDP的货币单位为Billions。
+首先内容中所说的指标为PPPGDP，在输入方面用户可自己输入国家的ISO或直接在下拉列表中挑选 ，输出方面则是输出国家的ISO、指标PPPGDP、货币单位、指标所对应的1980年到2022年的GDP数据单位共44项元数据，可查国家共192个，数据来源为IMF数据库中取得xls档(http://www.imf.org/external/pubs/ft/weo/2017/01/weodata/download.aspx)
 
 ## 输入：
 
-用户输入国家的ISO，交互界面使用到[HTML5之datalist标签](http://www.w3school.com.cn/html5/html5_datalist.asp)，显示的是国家的ISO，所以用户可以用 国家的ISO 或直接在下拉列表中挑选 所需要的国家的指标PPPGDP。
+用户输入国家的ISO，交互界面使用到[HTML5之datalist标签](http://www.w3school.com.cn/html5/html5_datalist.asp)，显示的是国家的ISO，所以用户可以用国家的ISO或直接在下拉列表中挑选所需要的国家的指标PPPGDP，一共有192个国家可供查询
 
 ## 输出：
 
-用户得到输出结果为：国家简称的ISO、指标的名称PPPGDP、指标所对应的1980年到2022年的GDP数据单位共44项元数据，见[tempaltes/results.html](tempaltes/results.html)模版中table标签所包的44项数据
+用户得到输出结果为：用户选择输出国家简称的ISO、指标的名称PPPGDP、货币单位、指标所对应的1980年到2022年的GDP数据单位共45项数据，见[tempaltes/results.html](tempaltes/results.html)模版中table标签所包的45项数据
 
 ## 从输入到输出，除了flask模块，本组作品还使用了：
 ### 模块
-* [csv]、[tsv]、[pandas](http://pandas.pydata.org/)
+* [csv](https://docs.python.org/3/library/csv.html)、[pandas](http://pandas.pydata.org/)
 
 ### 数据
-* 数据来源为IMF数据库中取得xls档，是用csv模块将他打开再使用pandas将他转为tsv档[data/fsnd_national.tsv](data/fsnd_national.tsv)，本组并未使用API。
+* 数据来源为IMF数据库中取得xls档(http://www.imf.org/external/pubs/ft/weo/2017/01/weodata/download.aspx)，是用csv模块将他打开再使用pandas将他转为tsv档[data/fsnd_national.tsv](data/fsnd_national.tsv)，本组并未使用API。
 
 ### API
 * 本组并未执行其他数据清理工作。
