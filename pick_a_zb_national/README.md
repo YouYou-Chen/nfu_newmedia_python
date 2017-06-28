@@ -5,11 +5,11 @@ pick_a_zb_national
 # 简介
  
 项目所做的是通过国家的两字码ISO，寻找到这个国家1980年到2022年的PPPGDP，其中PPPGDP的货币单位为Billions。
-首先内容中所说的指标为PPPGDP，在输入方面用户可自己输入国家的两字码ISO或直接在下拉列表中挑选 ，输出方面则是输出国家的两字码ISO、指标PPPGDP、货币单位、指标所对应的1980年到2022年的GDP数据单位共44项元数据，可查国家共192个，数据来源为IMF数据库中取得[xls档](http://www.imf.org/external/pubs/ft/weo/2017/01/weodata/download.aspx)
+首先内容中所说的指标为PPPGDP，在输入方面用户可自己输入国家的两字码ISO或直接在下拉列表中挑选 ，输出方面则是输出国家的两字码ISO、指标PPPGDP、货币单位、指标所对应的1980年到2022年的GDP数据单位共45项元数据，可查国家共191个，数据来源为IMF数据库中取得[xls档](http://www.imf.org/external/pubs/ft/weo/2017/01/weodata/download.aspx)
 
 ## 输入：
 
-用户输入国家的两字码ISO，交互界面使用到[HTML5之datalist标签](http://www.w3school.com.cn/html5/html5_datalist.asp)，显示的是国家的两字码ISO，所以用户可以用国家的两字码ISO或直接在下拉列表中挑选所需要的国家的指标PPPGDP，一共有192个国家可供查询
+用户输入国家的两字码ISO，交互界面使用到[HTML5之datalist标签](http://www.w3school.com.cn/html5/html5_datalist.asp)，显示的是国家的两字码ISO，所以用户可以用国家的两字码ISO或直接在下拉列表中挑选所需要的国家的指标PPPGDP，一共有191个国家可供查询
 
 ## 输出：
 
@@ -42,7 +42,7 @@ pick_a_zb_national
 
 6. 後端服务器收到用户web 请求，匹配到@app.route('/pick_a_zb', methods=['POST'])的函数 pick_a_zb() 
 
-7. [pick_a_zb_national.py](pick_a_zb_national.py) 中 def pick_a_zb() 函数，把用户提交的数据，以flask 模块request.form['user_zb']	取到Web 请求中，HTML表单变数名称user_zb的值，存放在user_zb这Python变数下，再使用flask模块render_template 函数以[templates/results.html](templates/results.html)模版为基础（输出），其中模版中the_zb的值，用user_zb这变数之值，其他42项值如此类推。
+7. [pick_a_zb_national.py](pick_a_zb_national.py) 中 def pick_a_zb() 函数，把用户提交的数据，以flask 模块request.form['user_zb']	取到Web 请求中，HTML表单变数名称user_zb的值，存放在user_zb这Python变数下，再使用flask模块render_template 函数以[templates/results.html](templates/results.html)模版为基础（输出），其中模版中the_zb的值，用user_zb这变数之值，其他43项值如此类推。
 
 8. 前端浏览器收到web 响应：模版中[templates/results.html](templates/results.html) 的变数值正确的产生的话，前端浏览器会收到正确响应，看到指标的相关元数据。
 
