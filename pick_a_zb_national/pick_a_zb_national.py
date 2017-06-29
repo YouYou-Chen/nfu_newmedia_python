@@ -2,7 +2,7 @@
  
 # 用pandas 读入 国家数据PPPGDP
 import pandas as pd
-df = pd.DataFrame.from_csv("data/fsnd_national.tsv", encoding='utf8', sep='\t')
+df = pd.DataFrame.from_csv("data/fsnd_national.tsv", sep='\t')
 df = df.fillna('<i>（缺省值）</i>')   # nan 用  '（缺省值）' 代替
 national = df.set_index('2ISO_or_country.name').to_dict()
 print("指标有",len(national['WEO_Subject_Code']),'个')
