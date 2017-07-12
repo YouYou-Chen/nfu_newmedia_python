@@ -1,6 +1,6 @@
 pick_a_zb_national
 
-英文项目名称pick_a_zb_national，zb意思为中文「指标」两字（拼音打头），national指的是关于指标所指的数据。
+英文项目名称pick_a_zb_national，zb意思为中文「指标」两字（拼音打头），national指的是关于国家指标所指的数据。
 
 # 简介
  
@@ -17,7 +17,8 @@ pick_a_zb_national
 
 ## 从输入到输出，除了flask模块，本组作品还使用了：
 ### 模块
-* [csv](https://docs.python.org/3/library/csv.html)、[pandas](http://pandas.pydata.org/)
+* [csv](https://docs.python.org/3/library/csv.html)
+*[pandas](http://pandas.pydata.org/)
 
 ### 数据
 * 数据来源为IMF数据库中取得[xls档](http://www.imf.org/external/pubs/ft/weo/2017/01/weodata/download.aspx)，是用csv模块将他打开再使用pandas将他转为tsv档[data/fsnd_national.tsv](data/fsnd_national.tsv)，本组并未使用API。
